@@ -27,11 +27,12 @@
         return cell;
     }];
     
-    
-//    //只设置cell行高
-//    [table delegateCellHeight:^CGFloat(NSIndexPath *indexPath) {
-//        return 20;
-//    }];
+    /**
+    //只设置cell行高
+    [table delegateCellHeight:^CGFloat(NSIndexPath *indexPath) {
+        return 20;
+    }];
+    */
     
     //delegate 高度信息
     [table delegate:^CGFloat(NSInteger section) {//段头高度
